@@ -1,6 +1,3 @@
-/* - Mobile: 375px
-- Desktop: 1440px */
-
 :root {
   /* Colour */
   --clr-primary-100: hsl(257, 40%, 49%);
@@ -15,9 +12,10 @@
   --fw-regular: 400;
   --fw-bold: 600;
 
+  /* Font Size */
   --fs-400: 0.875rem;
   --fs-500: 1rem;
-  --fs-600: 1.2rem;
+  --fs-600: 1.25rem;
   --fs-700: 1.875rem;
   --fs-800: 2rem;
 }
@@ -47,6 +45,10 @@ button {
   cursor: pointer;
   border-radius: 25px;
   border: none;
+  width: 240px;
+  margin: 0 auto;
+  height: 45px;
+  box-shadow: 0px 3px 5px #313131;
 }
 
 button:hover {
@@ -56,6 +58,7 @@ button:hover {
 /* Body */
 body {
   background-color: var(--clr-primary-100);
+  margin: 0 1em 0 1em;
 }
 
 /* Header */
@@ -65,10 +68,17 @@ header img {
 }
 
 /* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card img {
-  width: 325px;
+  width: 340px;
   justify-content: center;
   padding-bottom: 4em;
+  margin: 0 auto;
 }
 
 .card__heading {
@@ -79,9 +89,4 @@ header img {
 .card__body {
   text-align: center;
   padding-bottom: 1.5em;
-}
-
-.card__button {
-  width: 225px;
-  margin: 0 auto;
 }
