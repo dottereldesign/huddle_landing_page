@@ -1,0 +1,42 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+    /* Colour */
+    --clr-primary-100:hsl(257, 40%, 49%);
+    --clr-primary-200: hsl(300, 69%, 71%);
+
+    /* Font Family */
+    --ff-primary-100: 'Poppins', sans-serif;;
+    --ff-primary-200: 'Open Sans', sans-serif;
+
+    /* Font Weight */
+    --fw-regular: 400;
+    --fw-bold: 600;
+
+    --fs-400: .875rem;
+    --fs-500: 1rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.875rem;
+    --fs-800: 2rem;
+
+    /* Utility */
+}
+
+
+
+
+
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
