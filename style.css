@@ -58,7 +58,20 @@ button:hover {
 /* Body */
 body {
   background-color: var(--clr-primary-100);
-  margin: 0 1em 0 1em;
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+@media (min-width: 45em) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    width: 1440px;
+  }
 }
 
 /* Header */
@@ -75,7 +88,7 @@ header img {
 }
 
 .card img {
-  width: 340px;
+  width: 305px;
   justify-content: center;
   padding-bottom: 4em;
   margin: 0 auto;
@@ -89,4 +102,35 @@ header img {
 .card__body {
   text-align: center;
   padding-bottom: 1.5em;
+}
+
+.card__button {
+  margin-bottom: 4em;
+}
+
+.card__social--flex {
+  display: flex;
+  justify-content: center;
+}
+
+i:nth-child(2) {
+  margin: 0 1em 0 1em;
+  color: white;
+}
+
+i {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 7px;
+  color: white;
+  width: 15px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+i:hover {
+  color: var(--clr-primary-200);
+  border: 1px solid var(--clr-primary-200);
+  cursor: pointer;
 }
