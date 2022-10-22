@@ -153,6 +153,7 @@ header img {
 
 .card img {
   width: 100%;
+  max-width: 600px;
   height: auto;
   justify-content: center;
   padding-bottom: 4em;
@@ -180,6 +181,8 @@ main {
 .card__body {
   text-align: center;
   padding-bottom: 1.5em;
+  max-inline-size: 60ch;
+  margin: 0 auto;
 }
 
 .card__button {
@@ -236,7 +239,7 @@ i:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 600px;
+    max-width: 600px;
     padding-left: 3em;
   }
 
